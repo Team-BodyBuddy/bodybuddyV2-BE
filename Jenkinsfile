@@ -168,7 +168,7 @@ pipeline
         success
         {
             //빌드 성공 디스코드 메시지
-            discordSend description: "Build Success! Your backend is ready.", 
+            discordSend description: "빌드 성공은 했는데 안에 내용 자신있죠? ", 
                             footer: "The backend build has successfully completed without any errors.", 
                             link: env.BUILD_URL, result: currentBuild.currentResult, 
                             title: "${env.JOB_NAME} #${BUILD_NUMBER}", 
@@ -178,7 +178,7 @@ pipeline
         failure
         {
             //빌드 실패 디스코드 메시지
-            discordSend description: "Build Failed! Check the output for more details.", 
+            discordSend description: "빌드 실패. 제대로 안할래요?", 
                             //footer: "The build process encountered errors.", 
                             link: env.BUILD_URL, result: currentBuild.currentResult, 
                             title: "${env.JOB_NAME} #${BUILD_NUMBER}", 
