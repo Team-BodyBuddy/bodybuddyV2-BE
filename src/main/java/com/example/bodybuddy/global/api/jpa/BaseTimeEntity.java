@@ -1,4 +1,4 @@
-package com.example.bodybuddy.api.jpa;
+package com.example.bodybuddy.global.api.jpa;
 
 import java.time.LocalDateTime;
 

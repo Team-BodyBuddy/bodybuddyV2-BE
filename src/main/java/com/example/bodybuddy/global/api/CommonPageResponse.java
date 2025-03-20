@@ -1,4 +1,4 @@
-package com.example.bodybuddy.api;
+package com.example.bodybuddy.global.api;
 
 import java.util.List;
 

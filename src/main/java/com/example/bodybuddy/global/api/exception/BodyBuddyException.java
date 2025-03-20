@@ -1,6 +1,6 @@
-package com.example.bodybuddy.api.exception;
+package com.example.bodybuddy.global.api.exception;
 
-import com.example.bodybuddy.api.code.error.ErrorCode;
+import com.example.bodybuddy.global.api.code.error.ErrorCode;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

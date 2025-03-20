@@ -1,7 +1,7 @@
-package com.example.bodybuddy.api;
+package com.example.bodybuddy.global.api;
 
-import com.example.bodybuddy.api.code.error.ErrorCode;
-import com.example.bodybuddy.api.code.success.CommonSuccessCode;
+import com.example.bodybuddy.global.api.code.error.ErrorCode;
+import com.example.bodybuddy.global.api.code.success.CommonSuccessCode;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import lombok.AccessLevel;

@@ -1,4 +1,4 @@
-package com.example.bodybuddy.api.code.error;
+package com.example.bodybuddy.global.api.code.error;
 
 import org.springframework.http.HttpStatus;
 
