@@ -14,3 +14,12 @@ spring:
     properties:
       hibernate:
         format_sql: true
+#cloud:
+#  aws:
+#    credentials:
+#      access-key: YOUR_ACCESS_KEY
+#      secret-key: YOUR_SECRET_KEY
+#    region:
+#      static: ap-northeast-2
+#    stack:
+#      auto: false  # (선택) EC2 인스턴스 환경 아닌 곳에서 "no region provided" 오류를 막아줍니다.
